@@ -1,0 +1,21 @@
+{{!-- inside partials inside default --}}
+{{> default/header}}
+  <body>
+
+    <!-- Navigation -->
+
+    {{> default/top-navigation}}
+     {{> default/messages}}
+  
+
+    <!-- Page Content -->
+    <div class="container">
+
+      {{{ body }}}
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    {{> default/footer}}
